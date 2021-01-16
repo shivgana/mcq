@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<style>
+  *{
+    box-sizing: border-box;
+  }
+    .h_box{
+      position: relative;
+      max-width: 700px;
+        margin-bottom: 15px;
+    }
+    .h_box pre{
+      width: 100%;
+      height: auto;
+      margin-bottom: 0;
+    }
+    .h_box pre img{
+      width: 800px;
+      height: auto;
+    }
+    .h_box div{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        background: rgb(1, 254, 35); /* Fallback color */
+        background: rgba(1, 254, 35, 0.8); /* Black background with 0.5 opacity */
+        color: #000000;
+        padding: 4px;
+     }
+     .h_box div p{
+        padding-left: 5px;
+        padding-top: 12px;
+        font-size: 1.2em;
+      }
+      code{
+        color: black;
+      }
+</style>
+</head>
+<body>
+  <div class="ml-2 mr-2">
+  <h2><center>Unix MCQ</center></h2>
+  <em>OPA on 2020-07-24</em>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200724_1.jpg" ></pre>
+    <div><p style="">Display all files who has all the 3 permission for all levels of users</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200724_2.jpg" ></pre>
+    <div><p style=""><code >awk 'BEGIN{FS="|";s=0}{s=s+$2}END{print s/NR}' file1</code></p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200724_3.jpg" ></pre>
+    <div><p style="">A first line in the shell script which tells which shell need to be used to execute the following command in the shell script</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200724_4.jpg" ></pre>
+    <div><p style="">Multiple process can be executes at the same time. The users can also communicate<br>concurrent process, allow the instruction and data from two or more separate processes</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200724_5.jpg" ></pre>
+    <div><p style=""><code>diff options file1 file2</code>. This command is used to display the differences in the files by comparing the file line by line</p></div>
+  </div>
+
+  <br>
+  <em>OPA on 2020-07-17</em>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200717_1.jpg" ></pre>
+    <div><p style="">BEGIN and END blocks are not Mandatory in all awk commands</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200717_2.jpg" ></pre>
+    <div><p>$1</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200717_3.jpg" ></pre>
+    <div><p>cat > filename</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200717_4.jpg" ></pre>
+    <div><p>head -1 filename</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200717_5.jpg" ></pre>
+    <div><p>read</p></div>
+  </div>
+
+  <br>
+  <em>OPA on 2020-07-10</em>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200710_1.jpg" ></pre>
+    <div><p>sort -r < filename></p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200710_2.jpg" ></pre>
+    <div><p>grep -i "Hello UNIX" filename</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200710_3.jpg" ></pre>
+    <div><p>1,Raghu,80<br>2,Hari,50<br>2.Milan,40</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200710_4.jpg" ></pre>
+    <div><p>To show numbered display</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200710_5.jpg" ></pre>
+    <div><p>The script will not be executed due to syntax error</p></div>
+  </div>
+  <br>
+  <em>OPA on 2020-07-03</em>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200703_1.jpg" ></pre>
+    <div><p>All access to Owner, Execute access to Group and Read to Others.</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200703_2.jpg" ></pre>
+    <div><p>2 and 2</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200703_3.jpg" ></pre>
+    <div><p>awk -F "|" '{print $2,$1}' score.txt</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200703_4.jpg" ></pre>
+    <div><p>No error in the given code</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200703_5.jpg" ></pre>
+    <div><p>db2 yes<br>sql no<br>java yes<br>oracle</p></div>
+  </div>
+  <br>
+  <em>OPA on 2020-07-01</em>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_1.jpg" ></pre>
+    <div><p>19</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_2.jpg" ></pre>
+    <div><p>echo $$</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_3.jpg" ></pre>
+    <div><p>;</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_4.jpg" ></pre>
+    <div><p>nohup</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_5.jpg" ></pre>
+    <div><p>bc<<<2+4</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_6.jpg" ></pre>
+    <div><p>0, because expression is true</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200701_7.jpg" ></pre>
+    <div><p>Each i-node is 256-bytes long is incorrect, It is 128 byte long</p></div>
+  </div>
+  <br>
+  <em>OPA on 2020-06-26</em>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200626-1.jpg" ></pre>
+    <div><p>sed -n 'Np' filename</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200626-2.jpg" ></pre>
+    <div><p>who</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200626-3.jpg" ></pre>
+    <div><p>rwxr-xr--</p></div>
+  </div>
+  <div class="h_box">
+    <pre><img alt="" src="./image/unix/mcq/20200626-4.jpg" ></pre>
+    <div><p>Find all .c files in a directory such that it does not contain the word "tutorial" in any case</p></div>
+  </div>
+</div>
+</body>
+</html>
